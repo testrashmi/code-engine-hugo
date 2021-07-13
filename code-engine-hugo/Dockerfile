@@ -1,4 +1,4 @@
-FROM klakegg/hugo:latest
+FROM klakegg/hugo:0.85.0-ext-ubuntu-onbuild
 
 ADD . /src
 
